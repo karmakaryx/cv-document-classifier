@@ -346,13 +346,14 @@ python-dotenv==1.2.1
 
 ## **📜 Version Log**
 [[Releases] Download Source Code for Each Version](https://github.com/karmakaryx/cv-document-type-classification/releases)
-### V1: Baseline Format Check
+
+#### V1: Baseline Format Check
 - 일정 수립, GitHub 설정
 - 개발 환경 설정
 - Jupyter Notebook을 Python script로 변환
 - baseline code에서 hyperparameter 변경
 
-### V2: EfficientNet-B3
+#### V2: EfficientNet-B3
 - path env 설정
 - seed CuDNN 결정론적 연산 설정 추가
 - code formatting
@@ -360,7 +361,7 @@ python-dotenv==1.2.1
 - augmentation 추가
 - training / validation sets 분리
 
-### V3: Swin-Base 384
+#### V3: Swin-Base 384
 - best val macro F1 checkpoint 저장
 - early stopping 적용 (10회에서 시작해 20회까지 늘리고 patience는 5회 적용)
 - Stratified K-Fold + fold ensemble 추론
@@ -368,19 +369,19 @@ python-dotenv==1.2.1
 - augmentation 추가
 - hyperparameter 변경
 
-### V4: ConvNeXt-Base
+#### V4: ConvNeXt-Base
 - W&B 적용, Confusion Matrix 적용
 - oversampling 적용
 - image size 증가 후 padding 적용
 - model 변경: ConvNeXt-Base
 - augmentation 추가
 
-### V5: ConvNeXt-Base
+#### V5: ConvNeXt-Base
 - code cleanup (Stratified K-Fold 단일 운영)
 - TTA (Test Time Augmentation) 적용
 - augmentation 추가
 
-### V6: MaxViT & ConvNeXt Ensemble
+#### V6: MaxViT & ConvNeXt Ensemble
 - Augraphy 적용
 - #7, #3, #4, #14 클래스에 특화되고 추가 노이즈 증강본이 적용된 스페셜 코드 작성
 - model 변경: ConvNeXt-Base를 ConvNeXt V2 Base로 업그레이드
