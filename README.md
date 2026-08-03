@@ -457,7 +457,7 @@ graph TD
 
 ### Directory
 ```
-├── assets/...                 # README images
+├── assets/...                 # README images & PDF
 ├── code/
 │   ├── baseline.ipynb         # baseline code (GitHub 관리 제외)
 │   ├── eda.ipynb              # EDA Notebook (GitHub 관리 제외)
